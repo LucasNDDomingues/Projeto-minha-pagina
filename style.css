@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  */
+
+  /*background: color image repeat position/size */
+  background: url(./assents/Sem\ Título-1.png) no-repeat top center;
+}
+
+Body * {
+  font-family: "PT Serif", serif;
+  color: white;
+}
+#container1 {
+  width: 400px;
+  margin: 80px auto 0px;
+}
+
+#profile {
+  text-align: center;
+  font-weight: 700px;
+  color: white;
+  padding: 35px;
+}
+#profile img {
+  width: 200px;
+  margin: auto;
+}
+
+/*links*/
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  text-decoration: none;
+  font-weight: 500;
+
+  transition: background 0.2s;
+}
+
+ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
