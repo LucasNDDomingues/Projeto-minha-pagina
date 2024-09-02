@@ -12,12 +12,22 @@ body {
   */
 
   /*background: color image repeat position/size */
-  background: url(./assents/Sem\ Título-1.png) no-repeat top center;
+  background: rgb(146, 13, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(146, 13, 255, 1) 0%,
+    rgba(138, 12, 242, 1) 13%,
+    rgba(0, 212, 255, 1) 100%,
+    rgba(2, 0, 36, 1) 100%
+  );
 }
 
 Body * {
-  font-family: "PT Serif", serif;
-  color: white;
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: aliceblue;
 }
 #container1 {
   width: 400px;
@@ -29,6 +39,12 @@ Body * {
   font-weight: 700px;
   color: white;
   padding: 35px;
+
+  /*rubik*/
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 #profile img {
   width: 200px;
