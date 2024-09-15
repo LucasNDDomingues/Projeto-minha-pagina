@@ -1,54 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="light">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+      
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap"
+
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap"
       rel="stylesheet"
     />
 
     <meta charset="UTF-8" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Document</title>
+    
     <link rel="stylesheet" href="./style.css" />
+
   </head>
-  <body>
-    <div id="container1">
-      <div id="profile">
-        <img src="./assents/perfil.png" alt="" />
-        <p>@lucas.domingues___</p>
-      </div>
-      <ul>
-        <li>
-          <a
-            href="https://www.instagram.com/lucas.domingues___/"
-            target="_blank"
-            >INSTAGRAM</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/lucasnddomingues/"
-            target="_blank"
-            >LINKEDIN</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://github.com/LucasNDDomingues?tab=projects"
-            target="_blank"
-            >GITHUB</a
-          >
-        </li>
-      </ul>
+    <body>
+      <div id="container1">
+        <div id="profile">
+          <img src="./assents/perfil.png" alt="" />
+            <p>@lucas.domingues___
+            </p>
+        </div>
+        <div id="switch" onclick="toggleMode()">
+          <button></button>
+          <span></span>
+        </div>
+          <ul>  
+            <li>
+              <a
+                href="https://github.com/LucasNDDomingues"
+                  target="_blank">SOBRE MIM
+              </a>
+
+            </li>
+            <li>
+              <a href="https://github.com/LucasNDDomingues?tab=repositories"
+                target="_blank">REPOSITÓRIOS
+              </a>
+            </li>
+            <li>
+              <a href="./assents/1-1_2_3_merged.pdf" target="_blank">CURRICULO
+              </a>
+            </li>
+      
+          </ul>
+          <div id="social-links">
+            <a href="https://www.linkedin.com/in/lucasnddomingues/"
+              target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+
+            <a href="https://github.com/LucasNDDomingues"
+              target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+
+            <a href="https://www.instagram.com/lucas.domingues___/"
+              target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
+          </div>
+
+          <footer>
+            ♥ Feito com carinho  por <a target="_blank" href="https://github.com/LucasNDDomingues?tab=repositories">LucasNDDomingues</a> ♥
+          </footer>
+
     </div>
+    
+  
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+     <script src="./script.js"></script>
   </body>
 </html>
