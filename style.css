@@ -1,28 +1,54 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root{
+:root {
   --text-color: rgb(255, 255, 255);
-  --bg:linear-gradient(to right, #434343 0%, black 100%);
+  --bg: linear-gradient(to right, #434343 0%, black 100%);
   --bg-color: rgba(255, 255, 255, 0.3);
-  --border:rgba(255, 255, 255, 0.5);
-  --bg2:rgba(0, 0, 0, 0.3);
+  --border: rgba(255, 255, 255, 0.5);
+  --bg2: rgba(0, 0, 0, 0.3);
   --switch-bg: url(./assents/moon-and-stars-svgrepo-com.svg)
-  
-  
 }
 
-.light{
-  --text-color:rgb(0, 0, 0);
-  --bg:linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
-  --bg-color:rgba(255, 255, 255, 1);
-  --border:rgba(0, 0, 0,1);
-  --bg2:rgba(255, 255, 255, 0.5);
+.text-align {
+
+  margin: 10px;
+}
+
+.light {
+  --text-color: rgb(0, 0, 0);
+  --bg: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  --bg-color: rgba(255, 255, 255, 1);
+  --border: rgba(0, 0, 0, 1);
+  --bg2: rgba(255, 255, 255, 0.5);
   --switch-bg: url(./assents/sunflower-svgrepo-com.svg);
 }
+
+#container2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  border: red 10px solid;
+  margin: 10px 200px;
+}
+
+#sidebar {
+  border: rgba(59, 11, 235, 0.815) 10px solid;
+  display: grid;
+}
+
+#information {
+  display: block;
+  border: rgba(255, 217, 0, 0.815) 10px solid;
+}
+
+.picture img {
+  border: rgb(51, 219, 9) 10px solid;
+  max-width: 400px;
+  max-height: auto;
+}
+
+#page {
+  border: rgb(219, 9, 219) 10px solid;
+}
+
 
 body {
   /*
@@ -33,10 +59,10 @@ body {
   */
 
   /*background: color image repeat position/size */
-  
-  background:var(--bg);
-  
-  
+
+  background: var(--bg);
+
+
 }
 
 Body * {
@@ -46,6 +72,7 @@ Body * {
   font-style: normal;
   color: var(--text-color);
 }
+
 #container1 {
   width: 350px;
   margin: 24px auto 312px;
@@ -63,33 +90,34 @@ Body * {
   font-weight: weight;
   font-style: normal;
 }
+
 #profile img {
   width: 150px;
   margin: auto;
 }
 
-#switch{
+#switch {
   position: relative;
   width: 64px;
-  margin: 4px auto;  
+  margin: 4px auto;
 }
 
-#switch button{
+#switch button {
   width: 32px;
   height: 32px;
-  background: white var(--switch-bg)  no-repeat center ;
+  background: white var(--switch-bg) no-repeat center;
   background-size: 25px 25px;
   border: 0px;
   border-radius: 50%;
-  
-  position:absolute;
+
+  position: absolute;
   top: 50%;
   left: 0;
   z-index: 1;
-  transform: translateY(-50%);  
+  transform: translateY(-50%);
 }
 
-.light #switch button{
+.light #switch button {
   right: 0;
   left: initial;
 
@@ -98,7 +126,7 @@ Body * {
 
 }
 
-#switch span{
+#switch span {
   display: block;
   width: 64px;
   height: 24px;
@@ -139,7 +167,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color:var(--bg-color);
+  background-color: var(--bg-color);
   border: 1px solid var(--border);
 }
 
@@ -153,28 +181,28 @@ ul li a:hover {
 
 }
 
-#social-links a{
+#social-links a {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   padding: 16px;
   transition: background 0.5s;
   border-radius: 50%;
-  
+
 
 }
 
 #social-links a:hover {
-  background:var(--bg-color);
+  background: var(--bg-color);
   border-radius: 45%;
 }
 
-footer{
+footer {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
-  font-style:italic;
-  
+  font-style: italic;
+
   padding: 16px 0;
   font-size: 16px;
   text-align: center;
@@ -182,4 +210,4 @@ footer{
   bottom: 0;
   left: 0;
   width: 100%;
-  }
+}
